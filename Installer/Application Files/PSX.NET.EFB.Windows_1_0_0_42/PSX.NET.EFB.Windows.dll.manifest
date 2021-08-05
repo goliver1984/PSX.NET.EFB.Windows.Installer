@@ -1,0 +1,1470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PSX.NET.EFB.Windows.exe" version="1.0.0.42" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Citycons_plane_icon-icons.com_67921.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="14336">
+      <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dXZ5y+v/MQywFEY+xhUY6Hs526YfW5mG5Dr849WnkWk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Citycons_plane_icon-icons.com_67921.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oZmrEo59/wSbMsROi3j8U883Db58UNU8fX/a+xld5Fk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\Manuals\BAW-B747-3EFM.pdf" size="3743730">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v+SIEEMKa6iJkE6EobBvM6CCOKZo1n6NiTal8C2/4iM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\Manuals\BAW-B747-DDG.pdf" size="16967928">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dIq4FrrD2/42JWnhyNeZyYe6Tu1dxWg2Rm10A5idG/E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\Manuals\BAW-B747-FAM.pdf" size="19213075">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VTJb06jRnvSwPtadTUH9Y2VktTYwZacLvtR57RR4cOY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\Manuals\BAW-B747-FCOM-4.pdf" size="12846017">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Uj5i+akJvwXw900xhZh1PFeakNsTHusKNmJzYLacw3U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\Manuals\BAW-B747-FCTM-2.pdf" size="13463962">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8h2obMkWO3MOPgU+TSaFgzl5L3HcN8o+doGT2AQWtvU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\Manuals\BAW-B747-FOTB.pdf" size="3921593">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2Q08zKo/A5w3IdDuEZ6xl3sIA8mmKOVuSmyLIB9UVS0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\Manuals\BAW-B747-LB.pdf" size="17158066">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AOdk5p40UR/XATXxp0pg9MYqBMsNDKqFhIl53d62XW0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\Manuals\BAW-B747-LIB.pdf" size="122569">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KqUxRrCFTuW9MAnGUlvZZuFnlZriF9F7KMm8mfdufcY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\Manuals\BAW-B747-LIRF.pdf" size="1158519">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jqOSow5zbvVHDGftv+GSWlHmz51ZIV8lxS28RY2grwg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\Manuals\BAW-B747-NOTICES.pdf" size="9035206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>loeDMiM/b5M9fhjXmEF0c6XcYnWGDMa3DVgNbg4DBLg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\Manuals\BAW-B747-OMD.pdf" size="3006578">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+vG5pKauaweyQnNApmjDxGL+T2mHRV88eIvRwC2yKFc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\Manuals\BAW-B747-PERF.pdf" size="6259714">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w+ad1VN1g1GrwxocXQgh0uTCrrrUP7XlgafY4T8363U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\Manuals\BAW-B747-PERFD.pdf" size="34364738">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qRjWzKGtYXqSTERXRIecaq9cpie+/yYpDyXxMqxMPN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\Manuals\BAW-B747-QRH-4.pdf" size="8857498">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OK74oSRsV6xA0xMEJXRo/fHp/D8fKPz4DkoPItyd5QY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\Manuals\BAW-B747-WS.pdf" size="1192918">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pUdk6Ao7cdW+NXJMcq/B0X8fEmIk/Kqkbyb5+dHUU9c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AFRICA\DNMM.pdf" size="240867">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0BMCjtAsD11CgyX+4IeDFIevy5JGTKGazNrKNn5b7v0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AFRICA\FACT.pdf" size="231960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c9ohN2cC5crOlr15c39cOlIL69q+6nrkDPVwPSRs1iU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AFRICA\FALE.pdf" size="122020">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xFrW/FM+Awbp3eY7tYj7BYJS075YwKSkqot8cdkkUy8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AFRICA\FAOR.pdf" size="240008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xJI0NR5DyYBzfn1XHQp+pZ/2KkH1mgS8Sh6jcF2gd9I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AFRICA\FIMP.pdf" size="312075">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hpboJGCanvh/ziGDKJf3Wwnpw26z9Qmjklso35tFGSI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AFRICA\FMCZ.pdf" size="227626">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oYlZwy2XreS1R0zAk5LS3WuN31UGqZYxo8v4iObjTyk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AFRICA\FNUB.pdf" size="539194">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+Loy3wgUD+p5vdq504/W+1NBYHlH8kg9xrwGpWWtvXw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AFRICA\FOOL.pdf" size="215971">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ns25IchzSRd1/Uhc6mt6/s0pVeXv0IHxrTJRZn4VyF4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AFRICA\GMAD.pdf" size="146394">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fQ3MkjwNoSiK8VH9vtdDOF6lz9Nc92RisE9majHFUqM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AFRICA\GOBD.pdf" size="195195">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9mbzqPOhFrOftPP420ZpWCXo6bjihu9b4SsCV3YY9gM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AREA BRIEFINGS\AFRICA.pdf" size="220884">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>b8frUQlUuLJiU/s8uYp+LKI5HFpe/rZidBm2BLLzi+0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AREA BRIEFINGS\AUSTRALASIA INCLUDING NEW ZEALAND AND PACIFIC.pdf" size="262351">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>474iR6FowwlHhAXJX9PSGHg7zMlolP7wbtdWSYvcApg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AREA BRIEFINGS\CIS.pdf" size="245946">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>U6UH2w3mtWmiobQVyj31FCcGIp9zMc+7R6gCDjb4YGI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AREA BRIEFINGS\EAST EUROPE SIBERIA.pdf" size="305951">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ui7zgCQNf8uy8CUbbAq1nFIrDL1rqMHMoGTWTZocy1c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AREA BRIEFINGS\MID FAR EAST.pdf" size="390839">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Lpe53cA3jDmPRY8y9otvuZKbEnmYvdP4KjoEYvSVw/k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AREA BRIEFINGS\NORTH AMERICA.pdf" size="695171">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Iz1RIq/lkGMmLn1aKMgjqJXYAGjrL7tDblJgXMvLljA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AREA BRIEFINGS\POLAR.pdf" size="210198">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qOqLc46vfHIZR7pqblrAYGcB5xAqPLfZ8gQQYdpcv0Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AREA BRIEFINGS\SOUTH AMERICA AND CARIBBEAN.pdf" size="246352">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3xtc1xTIdkG3mSdwqIh1J1TX4c4y6AYyvuHuHqPEwl4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\FJDG.pdf" size="125644">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>31lg4P/yXzQ4sAyXPgSqN08WT2b2OdGBjp0LCjC2ztc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\OMDB.pdf" size="368007">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3clDaOkpIKseruRvzFsi7GFHJYx8iPSyB5DHW+RrcDI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\OPIS.pdf" size="185644">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vVd22jIUZaiuzBd0PpL7QFsLmuCQPztsj1veDpfIoso=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\RJBB.pdf" size="227574">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nmuZLjj2n0QA5FnsZaot0Ciee3YT3i6xStUdnjFo8fY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\RJCC.pdf" size="185533">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JF4A5RqlzAbKjZev8L+pAGhk5cgYOo8vllukW27UF8k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\RJSF.pdf" size="258870">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JLvy9bFrTZXMB7YZglWgzTTpfSICw7MYv1EJq9aTRlM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\RJTT.pdf" size="432798">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OVyv2gprFw/JFrOxwypXCY0a9QI7cwZ2mSxwNy/oWLI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\RKSI.pdf" size="236990">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FB+wyHWgs4KdrBwuygjjbYi9cDz82rj+J8zrWHlizXI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\UHMA.pdf" size="185368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/Hc9CqTxPJHYDeMEBa0UHM7ffJoAoV9FPTK4RkvhBOg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\UHMD.pdf" size="237880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+IoSTJyPSFzTN3f4vD4qDPxgVBSUJuMS0wirf9DQG4g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\UHMM.pdf" size="232262">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qizayKcGoaQWmpLgmZhmGaOp1YUkaQ7B54UeLVPR2kI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\UHPP.pdf" size="186860">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>C/I7OzKS8nvCq+p+N6OF+bZ7MvriRXrWU9/Sp+igIsA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\UHSS.pdf" size="232822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mZjRctALJlzS8eIFHdvdsY1D8EZBBSTzyeE3r8dIrrc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\UNOO.pdf" size="184382">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aeXin0z2WJRXqW8bnqKe/gxytR9IP7eYXvGVmqTEEp0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\USSS.pdf" size="114403">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jxHNrQqDJjh7SAY58pPBLetQWveY28t/kRcoMXoPIa8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\VCBI.pdf" size="238971">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fdLH/fIpJdEU8i9rPXhtvzXBD2IYjq3tfgsR2bhL8gk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\VDSR.pdf" size="113043">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>i23V07j9YeDIYv+iZmIaIKPok/dDiKIiUPv7Ow+SjyQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\VHHH.pdf" size="313997">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/07k3vyHXb8mjg+BR7DsUi1axEx/xGehWyfT7twaeQM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\VNKT.pdf" size="240366">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rZ/IVkNWA8U0DyZM3Y1ejv4crj/JQ6bYkJcvqELVkNM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\VRMM.pdf" size="231311">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t/gSTZwEfD5ts7SapbaoaDfFvS2cOu4ujbpog6ws3xs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\VVNB.pdf" size="181058">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t3RKKU2wh/gzC0iBEODrmjDoGFhc6oF4qDZilnB88b4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\VVTS.pdf" size="185029">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2Ss9KLldKMB2pwKxe22zP+vgfuUR/RtTnhsfj+qYVKI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\VYYY.pdf" size="181497">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ir0JbSsCjvheFQQXT2gJ/9lYAxwHUyKZYruzNcQE48w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\WAAA.pdf" size="228345">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GtxsEwZeZkJbXDcWVZzQgvh5Nryie4Shl6U4dRjptoQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\WARR.pdf" size="111991">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nSfb1eFvMPe92btTn5N6gazUJCgypPlo3H7ZZ3BzPNI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\WBGG.pdf" size="113016">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WRabJ3KlRjEz08PeZpimzpiuM1zJOFrQ5F+DDlpt/Nw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\WBKK.pdf" size="182277">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tX19drmgft5pIlyYJ1VSkxZzHS0kJ0O+Nt7NHWfiJpk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\WBSB.pdf" size="225639">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+iSa1Hzk3Lexihv5X54iRsgwGuA/AVDJKE+OEwbADYo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\WIII.pdf" size="230507">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D0+UDvlVI4gdAYGDcbF/yifxkk5P8tcdTcxYbkQC/Ug=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\WITT.pdf" size="189014">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3f5DsM1PAGBc8JugOl6mv9q2uzmK6VmHH/+VDs/J3IU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\WMKA.pdf" size="183373">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XD1w/yqLVCGH5x3xMdQ0J33xLvoajZ7M9o0fLSJ7ILs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\WSSS.pdf" size="143692">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/PMvBOotp7KB8W8Sd1qdCrr/8atghNT9LN/ZVvlCCJc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\ZBAD.pdf" size="188910">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0N86hi6A0+9+2msi0zemnG9feOW0y1QrlC/9cSJ2lAs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\ZSAM.pdf" size="201248">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eYHYhbFhU+qUSKDPdxjuo5oMVOMnm/XTue2lJXisFBM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\ZSSS.pdf" size="227911">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8Q+R4Ii5WpKBXZJj3oILKMUyswT14FbJCTlBQXCuxbc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ASIA\ZWWW.pdf" size="184943">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ak9CcvFJcL8HN2qKXz8NItK4nN4iXS7yiD9A41B5948=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AUSTRALASIA INC NEW ZEALAND AND PACIFIC\AYPY.pdf" size="124743">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4YjrS8gItuOOUp1nJrAgwQrYGKHsRcg6jVjKFzsp2yI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AUSTRALASIA INC NEW ZEALAND AND PACIFIC\YBBN.pdf" size="264140">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a8/F2cMvmX8VASM249AlVWPZi3chN+GMJzeZQG5nP44=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AUSTRALASIA INC NEW ZEALAND AND PACIFIC\YBCG.pdf" size="111894">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9Xq/MHQOJVxHH/0T4Iw0IUj5kLZNzPlEVpTKmsQbGVk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AUSTRALASIA INC NEW ZEALAND AND PACIFIC\YBCS.pdf" size="128101">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TiZO1A8UBKF2AsqMNbTN/pOdMEPfNs3M5mpjW/b+7Bg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AUSTRALASIA INC NEW ZEALAND AND PACIFIC\YBRM.pdf" size="224736">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fwHuq6QkHBXZqbqfvOCNoy3AoIsx4RSMMUtC2Mc9hcA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AUSTRALASIA INC NEW ZEALAND AND PACIFIC\YPAD.pdf" size="183571">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GLwgaKbbDhbLgDgSWPhdrPHQgNdRCLsIwH/rJhoq53g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AUSTRALASIA INC NEW ZEALAND AND PACIFIC\YPDN.pdf" size="120916">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rggZBi3rGHzwNIqZiHrRuCF5RDfT2FxDikXT0KSnYq0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AUSTRALASIA INC NEW ZEALAND AND PACIFIC\YPPD.pdf" size="112438">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>StYw29OHUj8j0pD7udnaWigTUGNyXTfU8zbcSA9Rbpc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AUSTRALASIA INC NEW ZEALAND AND PACIFIC\YPPH.pdf" size="182262">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>khJQf8llvq93k2rM5Qdk+qcrUHFF5alZZqpNvwCskUc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\AUSTRALASIA INC NEW ZEALAND AND PACIFIC\YSSY.pdf" size="231681">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dfSWLi8sWoumKUv4EviB5YNYnPSuhZjG5kzhdii7rIs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ENVIRONMENT\CTC.pdf" size="236533">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gtv2qdXaIEjK5lf2jRGjrlrwhryg3UfCUpCrcHjOPk8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\ENVIRONMENT\HDA.pdf" size="229021">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yDFRPljok9h19wb7PdsCgxrjv6pEqptplxvm2RZF/vA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\EDDK.pdf" size="178240">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KQs0npUuDI92V8IRHU8lI9vO0DrK/V8HyqZlq2sdS1E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\EDDL.pdf" size="123827">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EjQVIS5BPrLAmXanoTGABelYMus5KgPqlMYee70hr5I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\EETN.pdf" size="126999">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p8Qwnr7DrDu+aRaQpm+4ihv273ffA0O9lUEnUPhnMdg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\EFHK.pdf" size="186176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YnhcfUVEI2lZiAbUiEwaeb7n6zeCkpoKPUGR76lOgos=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\EFRO.pdf" size="181754">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>skxKW9BHPoKhQ/nJOzkJP5bYN4ZjYKy6JeYhSBHz/ow=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\EGCC.pdf" size="122260">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1gheqgRR87f6sfEKXiZBbAA2EfVIsq6NjXTXYoXSZJg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\EGKK.pdf" size="156333">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6dnU9d1hZpeAaQsbI3nCQ2k1AbA9FcBffeY0wyb/1cI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\EGLL.pdf" size="563372">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xfuTDEM6hpUF2B04n686jz/PrDqaxQg7ZGLUa0uH+dI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\EGNM.pdf" size="239141">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R3OEY0B1FNyKRfGFWcwRU779zp/Nci0mOVPEdM8x/QE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\EGNT.pdf" size="121302">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2seRts4tMLrtOW0ufrz64b6e3AXIC14QRUxXN8LGcPo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\EGPB.pdf" size="126973">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4YJXBFuRqRMiHtV3xhjiMV8X3CtURtoTam7jNEgOUUE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\EKCH.pdf" size="226190">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uieAf5PzcseicJlFoGp7PexOkMxl6YnUlqkQ7X64X8E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\EKVG.pdf" size="136326">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JKAEyGJiDaz/X6MDeTYkQsZhq1kZM+hcYmsWQSBwbqk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\ENGM.pdf" size="98488">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NzHA+SIfGVOoTbFlSnd82iiFfuxyzhg5CavzQ6kKFMc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\ENHF.pdf" size="136623">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HZ2cRIbUfLKegwci4WXzqDlqP7mDPkOPSEDWQyeCqK0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\ENNO.pdf" size="573341">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/yd7nWFTtM7hA0MQwOoj1/HO3LR+zBTZFP6Eu3lwag0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\ENSB.pdf" size="238892">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IN//Qow+2EqA16loBAPJGcdqVPydaTfuTzfmFF6pcvA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\ENTC.pdf" size="128708">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5Uiy6uoVyVZ9dWqEmgYkp42VmvSagVzcIdK78vBJbxM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\ENVA.pdf" size="231254">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sW3N9HlDc4LdTHptd5RlIzYKUYqXuCA2kIFPd0Vysgw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\ESNQ.pdf" size="234401">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wJwt6yuQa75X9XHpZiT5CpDLeveB8BDfsHvKSa1Ed38=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\ESNU.pdf" size="68846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Cnrdgcan9kmre4pQlo0Y8NNnzh32sEF6A7N8wFbP+aA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\ESSA.pdf" size="121890">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BwZmOU8AVhrIqaqJ6SxtRTtC8yne3cgioYlSrpYl0t4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\LEBL.pdf" size="237165">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CLPwZQ4e/8Ie7T6jYxC6Vt90aT6P0ov5YUE2VaMNeok=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\LGKR.pdf" size="195945">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+udEa1oSMCoXQCmT8HqLIwa6toBMitNW6tbzndiZnFo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\LOWI.pdf" size="328202">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kM3NZyihEajB1L4YYsW5qfnhhHFPeE4g0e5sx8vWDdY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\LOWS.pdf" size="494104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Y1fL0qIK/S5oBwQlyGsknLNKscAtLw8IgJlzd4lUT/g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\LPMA.pdf" size="341314">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Tm/jlBhxf8o3aYiBQDwTE1A2PLurEmdzd+M+93083y0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\LPPD.pdf" size="243609">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8WDSO1Rs21qPdorP++fVDb4EMcBGYv8lxz+cFYOzUQU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\LSZH.pdf" size="245593">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JIMedzuMKZH867m2Bq5xx2FqdxtQOD35PU6b6Kd/dqw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\LXGB.pdf" size="698699">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4i7zD8y4PkpEREv3q3cAD0fo9TlkLPTaRvEoeWmfjKQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\LZIB.pdf" size="174075">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vGZDGQ7kWGALnwE6SqJ8L0erEpTSnqMAgUFOkVJXYFk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\EUROPE\UUEE.pdf" size="183654">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2DY4zRHHNKikFPrIJOLvGv4I/wVI7uezb1KHnAgC5oo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\BGTL.pdf" size="229377">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PGpWeafbwKNj4PKH0SO4xraRII1qCw2UcUJIYv7cWc8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\CYOW.pdf" size="219891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EIjvO1OzvNmac1bKTsUG48CtPhxoqw94I2CuTxTn7gU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\CYQX.pdf" size="181834">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>USUhPeM31UhZW8cMca7urRHG0OrTvvixLFTShh/G468=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\CYVR.pdf" size="255346">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eCGwl3I7hfDppG2rJK+cPxnX+JfUdUZuNRfBcwaLKwM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\CYYR.pdf" size="124229">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sBw9ha8wvyyeJOjfvPZumhurSYtOzeYOkt2eeJp/sn8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\CYYZ.pdf" size="186397">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VOdE3CKHiqapbVIffHKQnZGu0MeYPbDxhitidmrLBkg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\CYZF.pdf" size="112761">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rKjP3YW38myXnvGItMwn8oh97hPegAS5O5aZBa5F1eE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\KDEN.pdf" size="229363">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hYlqLRGHdRH54abVGZ6N+rHIX6lQemUC9gcO+EY/ORU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\KEWR.pdf" size="247023">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fmBP4xwWW5sGgl0yaTqPXBwuW/FYunhqBVh079DoiVk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\KJAC.pdf" size="235720">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F5m2fFbfe986ITeVRPK82lzdgKwZC7puBPObOSwTGQo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\KJFK.pdf" size="304772">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cuxE/piqW34STNJmh9i/ie51E/VdKk3pcnw1CLZsB0E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\KLAX.pdf" size="369505">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/SQJfeNRHdNhIWZPRh7dzhMDTUBuaFwaOocLW50hIQE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\KLIT.pdf" size="221952">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tGHWczgu+eN0/LHBj0DB3S3fpQMVpY9CiYIskkvS8Fw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\KMSP.pdf" size="233195">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nIqLksQ09eB/1Q5wXTxTGot9oTm3GzIs/GFdsru2Tvs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\KSEA.pdf" size="238611">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vtvADBUXKDrjYIygDh9qH9H6SRHqGjcSJsGaSSpAo4Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\MHTG.pdf" size="487565">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Id0fAWfjOojud5XOcnlbqqSjQifXa7PeOaWbi4cZBsY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\MMMX.pdf" size="228872">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1XxHGEa2nPtajHny0QZbQs+DfvAYtjehRIqLADnO1TA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\PAFA.pdf" size="128272">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HOA550mIUgcvHoLemVVVpLLSUOjymj4XIIFFoznACzY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\PAJN.pdf" size="241856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5L3yS9lOtuxRlpT9qL0VFrRvlOq9HPoflJOFc9UhSj8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\PAOM.pdf" size="182310">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q8fn8ZdrAs79Hw1W41mRrzJmsWCqYd1Xws/KFIZRjjM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\NORTH AMERICA\PASI.pdf" size="304498">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NtsuBuplOX32jhQ3thwqA8xUc8yTtF+XLpcj51+YwF4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Documents\RIM\SIMFEST Route Information Manual.pdf" size="3638034">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WB45ZhPmvmDP4duuWtn0llofpIE6A/81AfZsrv7ynXM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FontAwesome.WPF.dll" size="209408">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Y9UNvglLvOXXv4rwjA2RnPpeBXygWueydwSoR3yLNI8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Extensions.Logging.Abstractions.dll" size="52616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9UNtwDMFW86VtnTtJFk9xcc1hCnXFGXccFv3SkbgYy0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Newtonsoft.Json.dll" size="695336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cs8pHUurDt0IqbB8YXPh560au3q3J/1wRL9jBddRVmE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="OmotVnc.Controls.dll" size="34816">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ccreVP/YrCuabfoW+TtYt1cXAgS5gVnbcUBIx05l04M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="OmotVnc.Protocol.dll" size="36352">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1px036utkcWksANDpudfUWKmiWfZYZWgavIGB+1MdLY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PSX.NET.EFB.Windows.deps.json" size="44227">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eebvZQE1bcFWCdkVORs2mOfyQ9aq7vRdVJdFlJ8xvIU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PSX.NET.EFB.Windows.dll" size="177152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gKJvUwUoEbJWJ21R/ZtX7R0bDJEltOoo6zLjDYV+a5Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PSX.NET.EFB.Windows.exe" size="211968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>swzdVvrcj4d2IoxoxGxHL5+E0bOcPrVylsSW/du/1M4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PSX.NET.EFB.Windows.runtimeconfig.json" size="172">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UmNvz6w5IFwkPMwJyCFmnAOhT3r9c9m9BEIVGA8O7hw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="sni.dll" size="160040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aHBcTvmrgY8pVqeOBfP+/OUBoUSHk7BztGEQvrSbR9Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Data.SqlClient.dll" size="1023352">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F2b1uxwJgROfZA6rjQ04dJhrS7G41Ln2/KEY2hnw4xU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Reactive.Core.dll" size="114432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>52bPYw/Pp7cPLVx2WjZeMd5Kfvej8+8Iv4P9XazSFsI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Reactive.Interfaces.dll" size="22784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>K+On3Sn0e3XLxOFErTwMYmnG/bbNGfrOwPTwJJAgpOk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Reactive.Linq.dll" size="709888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8pBb7382dvlPlEA50P+2WhH23tdULFx8cF7EIqQTy9I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Reactive.PlatformServices.dll" size="38656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qOzofXw9yAkddPWRARd6pISEMTZDmCoiwEaSgEbYYC0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Runtime.InteropServices.WindowsRuntime.dll" size="22848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2Djd2oNPK11Vyhsetb1Db8KxXCoEvCxSlz4TivCAraU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TwitchLib.Client.dll" size="78336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n1AoUkHtLhKLe9Yz0KsQek/IzvIP/tjbazGtcTok+uQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TwitchLib.Client.Enums.dll" size="7168">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JFYwnXTmY5Bd2WRLXeXteMuqRu8EY6tppQVxWkER/kg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TwitchLib.Client.Models.dll" size="88576">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HxX2+Fe+jIKDg9+sdxvkrxdwK09cU4i8z8h+04gb6Lo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TwitchLib.Communication.dll" size="38400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KzuJ/xLkDv9CV+8Ef+v1ukeg965GXB4fYZssJtKm7Ec=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WPFTabTip.dll" size="26624">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uWDxOYDyiKN/cjJPu+H0stdQa6Xta8f0BegQOXlzRo4=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
