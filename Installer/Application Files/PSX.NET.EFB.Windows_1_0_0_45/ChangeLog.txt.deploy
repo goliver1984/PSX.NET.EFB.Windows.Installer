@@ -1,0 +1,21 @@
+﻿V1.8.0.0
+========
+-Fixed STD and STA to be in UTC
+-Resolved Crash on reload on images page
+-Removed Discord Button
+-Split VATSIM from Sim Control
+-Fixed bug with vpilot display
+-Dark Mode by Default
+-Manuals Now Optional and should be added manually to my docs\EFBManuals Folder
+-Twitch Subs, Follows, Bits, Hosts and Raids added
+-Clipboard Added
+-Fixed bug with charts not downloading properly
+
+Todo
+====
+
+Chart Pinch Zoom
+Chart Rotate
+Chart Dark Mode
+Chart Moving Map
+

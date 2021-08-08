@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {},
     ".NETCoreApp,Version=v6.0/win-x64": {
-      "PSX.NET.EFB.Windows/1.8.0": {
+      "PSX.NET.EFB.Windows/1.8.1": {
         "dependencies": {
           "FontAwesome.WPF": "4.7.0.9",
           "Newtonsoft.Json": "13.0.1",
@@ -1036,7 +1036,7 @@
     }
   },
   "libraries": {
-    "PSX.NET.EFB.Windows/1.8.0": {
+    "PSX.NET.EFB.Windows/1.8.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
