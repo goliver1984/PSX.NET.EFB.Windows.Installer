@@ -1,4 +1,15 @@
-﻿V1.8.0.0
+﻿V1.8.2.0
+========
+-Stopped EFB crashing is no Manuals folder created
+-Charts now cached during session - Should prevent blank charts appearing when reselecting 
+-Added Clip Icon
+
+V1.8.1.0
+========
+-Fixed Bug with Clipped charts not loading
+-Clipboard cleared on flight info reload
+
+V1.8.0.0
 ========
 -Fixed STD and STA to be in UTC
 -Resolved Crash on reload on images page
@@ -13,7 +24,6 @@
 
 Todo
 ====
-
 Chart Pinch Zoom
 Chart Rotate
 Chart Dark Mode
