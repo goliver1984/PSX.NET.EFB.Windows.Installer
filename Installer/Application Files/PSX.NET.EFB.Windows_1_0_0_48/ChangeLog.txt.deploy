@@ -1,0 +1,41 @@
+﻿V1.8.3.0
+========
+-Dark Mode Charts
+-Chart Rotate Functions
+-Improved Charts Image
+-Now darkmode charts work it is no longer default on EFB opening
+-Darkmode corrected
+-Loading of charts tidying up a bit
+-Moving maps now working on all charts that support it (not ground it seems)
+
+
+V1.8.2.0
+========
+-Stopped EFB crashing is no Manuals folder created
+-Charts now cached during session - Should prevent blank charts appearing when reselecting 
+-Added Clip Icon on charts menu
+-Clipping charts no longer blanks them
+
+V1.8.1.0
+========
+-Fixed Bug with Clipped charts not loading
+-Clipboard cleared on flight info reload
+
+V1.8.0.0
+========
+-Fixed STD and STA to be in UTC
+-Resolved Crash on reload on images page
+-Removed Discord Button
+-Split VATSIM from Sim Control
+-Fixed bug with vpilot display
+-Dark Mode by Default
+-Manuals Now Optional and should be added manually to my docs\EFBManuals Folder
+-Twitch Subs, Follows, Bits, Hosts and Raids added
+-Clipboard Added
+-Fixed bug with charts not downloading properly
+
+Todo
+====
+Chart Pinch Zoom
+Chart Moving Map
+
