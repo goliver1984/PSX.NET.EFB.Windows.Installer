@@ -1,4 +1,9 @@
-﻿V1.8.3.0
+﻿V1.8.4.0
+========
+-Fixed moving map button
+-Fixed Rotate Direction
+
+V1.8.3.0
 ========
 -Dark Mode Charts
 -Chart Rotate Functions
