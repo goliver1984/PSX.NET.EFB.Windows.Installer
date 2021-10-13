@@ -9,8 +9,8 @@
     ".NETCoreApp,Version=v6.0/win-x64": {
       "PSX.NET.EFB.Windows/1.8.6": {
         "dependencies": {
-          "CefSharp.Wpf.NETCore": "94.4.50",
           "FontAwesome.WPF": "4.7.0.9",
+          "Microsoft.Web.WebView2": "1.0.992.28",
           "Newtonsoft.Json": "13.0.1",
           "System.Data.SqlClient": "4.8.2",
           "System.Drawing.Common": "5.0.2",
@@ -21,106 +21,6 @@
         },
         "runtime": {
           "PSX.NET.EFB.Windows.dll": {}
-        }
-      },
-      "CefSharp.Common.NETCore/94.4.50": {
-        "dependencies": {
-          "chromiumembeddedframework.runtime": "94.4.5"
-        },
-        "runtime": {
-          "runtimes/win-x64/lib/netcoreapp3.1/CefSharp.Core.Runtime.dll": {
-            "assemblyVersion": "94.4.50.0",
-            "fileVersion": "94.4.50.0"
-          },
-          "runtimes/win-x64/lib/netcoreapp3.1/CefSharp.Core.dll": {
-            "assemblyVersion": "94.4.50.0",
-            "fileVersion": "94.4.50.0"
-          },
-          "runtimes/win-x64/lib/netcoreapp3.1/CefSharp.dll": {
-            "assemblyVersion": "94.4.50.0",
-            "fileVersion": "94.4.50.0"
-          },
-          "runtimes/win-x64/lib/netcoreapp3.1/Ijwhost.dll": {
-            "fileVersion": "3.100.1921.41614"
-          }
-        },
-        "native": {
-          "runtimes/win-x64/native/CefSharp.BrowserSubprocess.Core.dll": {
-            "assemblyVersion": "94.4.50.0",
-            "fileVersion": "94.4.50.0"
-          },
-          "runtimes/win-x64/native/CefSharp.BrowserSubprocess.dll": {
-            "assemblyVersion": "94.4.50.0",
-            "fileVersion": "94.4.50.0"
-          },
-          "runtimes/win-x64/native/CefSharp.BrowserSubprocess.exe": {
-            "fileVersion": "94.4.50.0"
-          },
-          "runtimes/win-x64/native/CefSharp.BrowserSubprocess.runtimeconfig.json": {
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "CefSharp.Wpf.NETCore/94.4.50": {
-        "dependencies": {
-          "CefSharp.Common.NETCore": "94.4.50"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/CefSharp.Wpf.dll": {
-            "assemblyVersion": "94.4.50.0",
-            "fileVersion": "94.4.50.0"
-          }
-        }
-      },
-      "chromiumembeddedframework.runtime/94.4.5": {
-        "dependencies": {
-          "chromiumembeddedframework.runtime.win-x64": "94.4.5"
-        }
-      },
-      "chromiumembeddedframework.runtime.win-x64/94.4.5": {
-        "native": {
-          "runtimes/win-x64/native/chrome_100_percent.pak": {
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win-x64/native/chrome_200_percent.pak": {
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win-x64/native/chrome_elf.dll": {
-            "fileVersion": "94.0.4606.71"
-          },
-          "runtimes/win-x64/native/d3dcompiler_47.dll": {
-            "fileVersion": "10.0.20348.1"
-          },
-          "runtimes/win-x64/native/icudtl.dat": {
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win-x64/native/libEGL.dll": {
-            "fileVersion": "2.1.16450.0"
-          },
-          "runtimes/win-x64/native/libGLESv2.dll": {
-            "fileVersion": "2.1.16450.0"
-          },
-          "runtimes/win-x64/native/libcef.dll": {
-            "fileVersion": "94.4.5.0"
-          },
-          "runtimes/win-x64/native/resources.pak": {
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win-x64/native/snapshot_blob.bin": {
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win-x64/native/v8_context_snapshot.bin": {
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win-x64/native/vk_swiftshader.dll": {
-            "fileVersion": "5.0.0.1"
-          },
-          "runtimes/win-x64/native/vk_swiftshader_icd.json": {
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win-x64/native/vulkan-1.dll": {
-            "fileVersion": "0.0.0.0"
-          }
         }
       },
       "FontAwesome.WPF/4.7.0.9": {
@@ -142,6 +42,27 @@
       },
       "Microsoft.NETCore.Platforms/5.0.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Web.WebView2/1.0.992.28": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "1.0.992.28",
+            "fileVersion": "1.0.992.28"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll": {
+            "assemblyVersion": "1.0.992.28",
+            "fileVersion": "1.0.992.28"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll": {
+            "assemblyVersion": "1.0.992.28",
+            "fileVersion": "1.0.992.28"
+          }
+        },
+        "native": {
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "fileVersion": "1.0.992.28"
+          }
+        }
+      },
       "Microsoft.Win32.Primitives/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -1142,34 +1063,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CefSharp.Common.NETCore/94.4.50": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-mJanFAujSUHYSMsEVgjpr9aZPdAfBRu54V8SR8x71J53tsRo9u3eWTAZ/Mp9V1abH8XkfsQw5u1XQHRjipuOCw==",
-      "path": "cefsharp.common.netcore/94.4.50",
-      "hashPath": "cefsharp.common.netcore.94.4.50.nupkg.sha512"
-    },
-    "CefSharp.Wpf.NETCore/94.4.50": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-17HLG+VVfpwMLC4SqimjskTZyRz2amCzZJ8ABCp+fGevnKaQF7zuR16y4FZf+FJp161KnRUiNNhQ0/pK5pICjQ==",
-      "path": "cefsharp.wpf.netcore/94.4.50",
-      "hashPath": "cefsharp.wpf.netcore.94.4.50.nupkg.sha512"
-    },
-    "chromiumembeddedframework.runtime/94.4.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-fRz7YBQ7QuETtv700I9mtD2PvBV6sd/5UTM0yRlVjxVvMi5Po8Bs4IachwXXZ4Af5EHZigKRac8P69awytYFUg==",
-      "path": "chromiumembeddedframework.runtime/94.4.5",
-      "hashPath": "chromiumembeddedframework.runtime.94.4.5.nupkg.sha512"
-    },
-    "chromiumembeddedframework.runtime.win-x64/94.4.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-FGlhM738qJ8Et5Xi6dpVDaPNGiUKj5ED5tlKgAR/UTrIJlcmrijkVeRFnIStYyVSJEg9QLxqsSxNsfy/Aaor4w==",
-      "path": "chromiumembeddedframework.runtime.win-x64/94.4.5",
-      "hashPath": "chromiumembeddedframework.runtime.win-x64.94.4.5.nupkg.sha512"
-    },
     "FontAwesome.WPF/4.7.0.9": {
       "type": "package",
       "serviceable": true,
@@ -1204,6 +1097,13 @@
       "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Web.WebView2/1.0.992.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3pYGRFg2qqB9mxQpyomnwWimCbT01pHYCC2+OFPWce9heF0kbvb0WJoK7vVeBZCTc0Sv5N6TA4FrGglM2lwQ1g==",
+      "path": "microsoft.web.webview2/1.0.992.28",
+      "hashPath": "microsoft.web.webview2.1.0.992.28.nupkg.sha512"
     },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",
