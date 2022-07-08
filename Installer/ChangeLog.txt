@@ -1,4 +1,13 @@
-﻿V1.8.4.0
+﻿V1.8.6.0
+========
+-Started adding PSX Instructor Functions
+
+V1.8.5.0
+========
+-Fixed Message Received Time
+
+
+V1.8.4.0
 ========
 -Fixed moving map button
 -Fixed Rotate Direction
