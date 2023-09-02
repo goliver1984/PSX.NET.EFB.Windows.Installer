@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "PSX.NET.EFB.Windows/4.9.1": {
+      "PSX.NET.EFB.Windows/4.9.2": {
         "dependencies": {
           "FontAwesome.WPF": "4.7.0.9",
           "Microsoft.Web.WebView2": "1.0.992.28",
@@ -971,7 +971,7 @@
     }
   },
   "libraries": {
-    "PSX.NET.EFB.Windows/4.9.1": {
+    "PSX.NET.EFB.Windows/4.9.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
