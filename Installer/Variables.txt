@@ -1,5 +1,5 @@
 [Aerowinx Precision Simulator - Variables]
-[Version 10.156]
+[Version 10.171]
 
 [Qs Types (strings)]
 Qs0="CfgRego"; Mode=ECON; Min=0; Max=8;
@@ -429,7 +429,7 @@ Qs423="HydData"; Mode=ECON; Min=16; Max=32;
 Qs424="Gear"; Mode=ECON; Min=87; Max=500;
 Qs425="Flaps"; Mode=ECON; Min=19; Max=1000;
 Qs426="FlapTime"; Mode=START; Min=29; Max=49;
-Qs427="BldAirVlvs"; Mode=ECON; Min=7; Max=19;
+Qs427="BldAirVlvs"; Mode=ECON; Min=7; Max=25;
 Qs428="BldAirDuct"; Mode=ECON; Min=5; Max=8;
 Qs429="Icing"; Mode=ECON; Min=13; Max=24;
 Qs430="PitotErr"; Mode=ECON; Min=15; Max=43;
@@ -565,6 +565,13 @@ Qs559="RteOffsetNg"; Mode=ECON; Min=0; Max=9999;
 Qs560="ProfilePtsNg"; Mode=ECON; Min=36; Max=9999;
 Qs561="InitRefUplink"; Mode=ECON; Min=40; Max=400;
 Qs562="LeftPfdAlt"; Mode=DEMAND; Min=5; Max=15;
+Qs563="StepClbFreeze"; Mode=ECON; Min=6; Max=99;
+Qs564="MfWai"; Mode=ECON; Min=5; Max=12;
+Qs565="EecIsa"; Mode=ECON; Min=8; Max=16;
+Qs566="MfEec1"; Mode=ECON; Min=5; Max=12;
+Qs567="MfEec2"; Mode=ECON; Min=5; Max=12;
+Qs568="MfEec3"; Mode=ECON; Min=5; Max=12;
+Qs569="MfEec4"; Mode=ECON; Min=5; Max=12;
 
 [Qh Types (integers, human actions)]
 Qh0="DeltaStbyIasBug1"; Mode=XDELTA; Min=-6000; Max=6000;
@@ -1212,7 +1219,7 @@ Qi208="FltTime"; Mode=START; Min=0; Max=999999;
 Qi209="PaxSigns"; Mode=ECON; Min=0; Max=7;
 Qi210="Offpath"; Mode=ECON; Min=-99999; Max=30000;
 Qi211="ElevFeelPsi"; Mode=DEMAND; Min=0; Max=2100;
-Qi212="ActLnavRadius"; Mode=ECON; Min=1000; Max=99999;
+Qi212="ActLnavRadius"; Mode=ECON; Min=1; Max=99999;
 Qi213="ProcTurn"; Mode=ECON; Min=0; Max=9999;
 Qi214="StbyCompass"; Mode=DEMAND; Min=0; Max=3600;
 Qi215="EngStall"; Mode=ECON; Min=0; Max=4;
@@ -1222,7 +1229,7 @@ Qi218="PnfExtra"; Mode=DELTA; Min=-1; Max=99;
 Qi219="AcftHeight"; Mode=XECON; Min=-99999; Max=99999;
 Qi220="Refueling"; Mode=ECON; Min=0; Max=1;
 Qi221="FansAtcMsgId"; Mode=ECON; Min=0; Max=9999;
-Qi222="FansCont"; Mode=ECON; Min=0; Max=3;
+Qi222="FansCont"; Mode=ECON; Min=0; Max=4;
 Qi223="EicasGrWt"; Mode=ECON; Min=0; Max=9999;
 Qi224="AtcPhase"; Mode=ECON; Min=0; Max=99;
 Qi225="CrashInhib"; Mode=ECON; Min=0; Max=2147483647;
@@ -1272,5 +1279,6 @@ Qi268="MinFuelTemp"; Mode=ECON; Min=-99; Max=0;
 Qi269="CfgMlw"; Mode=ECON; Min=500000; Max=700000;
 Qi270="ExtBleedPsi"; Mode=ECON; Min=5; Max=50;
 Qi271="GroundSpeed"; Mode=DEMAND; Min=0; Max=99999;
+Qi272="CfgPin3Prog"; Mode=ECON; Min=-2147483648; Max=2147483647;
 
 [End of file]
